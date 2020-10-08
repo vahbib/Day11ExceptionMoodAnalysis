@@ -12,7 +12,7 @@ public class MoodAnalyser {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        com.day11.exception.MoodAnalyser ma = new com.day11.exception.MoodAnalyser();
+        MoodAnalyser ma = new MoodAnalyser();
         System.out.println(ma.analyzeMood(sc.nextLine()));
         sc.close();
     }
